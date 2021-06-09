@@ -4,7 +4,7 @@ enum Taste{
     SWEET, SPICY, MEDIUM_SPICY, LESS_SPICY, SALTY;
 }
 enum FoodType{
-    VEG, NON_VEG, DRINK;
+    VEG, NON_VEG;
 }
 enum FoodCategories{
     STARTER, MAIN_COURSE, JUICE;
@@ -17,7 +17,7 @@ public class FoodItem {
     private Taste taste;
     private FoodCategories foodCategories;
 
-    public String getFoodName(String muttonCurry) {
+    public String getFoodName(/*String foodName*/) {
         return foodName;
     }
 
